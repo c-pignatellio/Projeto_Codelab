@@ -8,9 +8,9 @@
 </head>
 <body>
     <header>
-    <div><img src="images/pet2.png"></div>
+    <div><a href="index.html"><img src="images/pet2.png"></a></div>
 
-    <div id="links"><a href="projetos.html">Projetos</a>
+    <div id="links"><a href="">Projetos</a>
     <a href="membros.html">Membros</a>
     <a href="sobre.html">Sobre nós</a></div>
     </header>
@@ -19,7 +19,7 @@
 
     <div id="content">
             <div id="andamento">
-                <h1>Em andamento</h1>
+                
                 <div class="item">
                     <img src="images/icon_atividade.svg.png">
                     <div class="item-text">
@@ -39,23 +39,7 @@
                 
 
                 <div id="carrossel">
-                    <div class="item">
-                        <img src="images/UhCT7M2.jpeg.png">
-                        <h1>Seja monitor no CODIFIKIDS</h1>
-                        <p>12/08 - 19/08</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/FL9uZHC.jpeg.png">
-                        <h1>Seja monitor no CODIFIKIDS</h1>
-                        <p>12/08 - 19/08</p>
-                    </div>
-
-                    <div class="item">
-                        <img src="images/JXCWVsa.jpeg.png">
-                        <h1>Seja monitor no CODIFIKIDS</h1>
-                        <p>12/08 - 19/08</p>
-                    </div>
+                    
                 </div>
                 <div id="setas">
                     <div id="esquerda" class="seta"><img src="images/Arrow 2.png"></div>
@@ -94,4 +78,64 @@ ICMC</span>
 
 
 </body>
+
+<script>
+    
+    const atividades = {
+    "atuais": [
+        {
+            "nome": "CODIFIKIDS",
+            "descricao": "..."
+        },
+        {
+            "nome": "Overclock",
+            "descricao": "..."
+        }
+    ],
+    "proximas": [
+        {
+            "nome": "Processo seletivo",
+            "inicio": "20/03",
+            "fim": "20/04",
+            "imagem": "images/FL9uZHC.jpeg.png"
+        },
+        {
+            "nome": "Processo seletivo",
+            "inicio": "20/03",
+            "fim": "20/04",
+            "imagem": "images/JXCWVsa.jpeg.png"
+        }
+    ]
+}
+    
+        const andamento = document.getElementById('andamento');
+        let html = '<h1>Em andamento</h1>';
+        atividades.atuais.forEach(atividade => {
+            html += `
+                <div class="item">
+                    <img src="images/icon_atividade.svg.png">
+                    <div class="item-text">
+                            <h1>${atividade.nome}</h1>
+                            <p>${atividade.descricao}</p>
+                        </div>
+                </div>
+            `;
+        });
+        andamento.innerHTML = html;
+
+        const proximas = document.getElementById('carrossel');
+        let htmlProximas = '';
+        atividades.proximas.forEach(atividade => {
+            htmlProximas += `
+                <div class="item">
+                    <img src="${atividade.imagem}">
+                    <h1>${atividade.nome}</h1>
+                    <p>${atividade.inicio} - ${atividade.fim}</p>
+                </div>
+            `;
+        });
+        htmlProximas += '<div id="filler"></div>'
+        proximas.innerHTML = htmlProximas;
+
+</script>
 </html>

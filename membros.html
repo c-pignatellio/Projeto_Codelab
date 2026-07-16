@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Membros</title>
+</head>
+<body>
+    <header>
+    <div><a href="index.html"><img src="images/pet2.png"></a></div>
+
+    <div id="links"><a href="">Projetos</a>
+    <a href="">Membros</a>
+    <a href="sobre.html">Sobre nós</a></div>
+    </header>
+    <div id="capa">Conheça nossa equipe :)</div>
+
+
+    <div id="content_membros">
+        <div id="titulo_membros">
+            <img src="images/icone_pet.png">
+            <div id="linha"></div>
+            <h1>Membros do PET</h1>
+        </div>
+
+        <div id="membros">
+            
+        </div>
+
+    </div>
+
+    <footer>
+        <div id="links">
+            
+            <img src="images/logopetverde.png">
+            <div id="redes">
+                <a target="_blank" href="https://web.facebook.com/petcompusp/?locale=pt_BR&_rdc=1&_rdr#" >
+                    <img src="images/Item → Link → icon_facebook.svg.png"></a>
+                <a target="_blank" href="https://www.instagram.com/petcomputacaousp/" ><img src="images/Item → Link → icon_instagram.svg.png"></a>
+                <a target="_blank" href="https://x.com/petcomp_usp" ><img src="images/Item → Link → icon_x.png.png"></a>
+                <a target="_blank" href="https://br.linkedin.com/company/petcompusp" ><img src="images/Item → Link → icon_linkedin.svg.png"></a>
+            </div>
+        </div>
+        <div id="contato">
+            <span><img src="images/icon_email.svg.png"> petcomp@icmc.usp.br</span>
+            <span><img src="images/Group.png"> Av. Trab. São Carlense, 400 - São
+Carlos/SP Bloco 1, sala 1-103 do
+ICMC</span>
+        </div>
+        <div id="logos">
+            <img src="images/Section.png">
+            <img src="images/logousp.png">
+        </div>
+    </footer>
+
+
+</body>
+
+<script>
+    const membross ={
+    "responsavel": {
+        "nome": "Educardo do Vale Simões",
+        "imagem": "images/simoes.jpg"
+    },
+    "membros": [
+        {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        },
+         {
+            "nome": "João da Silva",
+            "imagem": "..."
+        }
+    ]
+}
+        //fetch('dados/atividades.json');
+        const membros = document.getElementById('membros');
+        let html = '';
+        html += `<div class="item_membro"><img src="${membross.responsavel.imagem}"><h1>${membross.responsavel.nome}</h1></div>`;
+        membross.membros.forEach(membro => {
+            if(membro.imagem === "..."){
+                membro.imagem = "images/imagem_membro.png";
+            }
+
+            html += `
+                <div class="item">
+                    <div class="item_membro">
+                        <img src="${membro.imagem}">
+                        <h1>${membro.nome}</h1>
+
+                    </div>
+                </div>
+            `;
+        });
+        html += '<div id="filler"></div>'
+        membros.innerHTML = html;
+
+
+</script>
+</html>
