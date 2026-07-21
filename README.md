@@ -19,8 +19,8 @@ Como sugerido na proposta do projeto, há alguns arquivos com informações para
 
 ### Imagens e Vídeos
 Imagens das três páginas desenvolvidas: Início, Membros e Sobre  
-<img src="images/imagem_inicio.png" style="height: 300px">  
-<img src="images/imagem_membros.png">  
-<img src="images/imagem_sobre.png">  
+<img src="images/imagem_inicio.png" style="height: 500px">  
+<img src="images/imagem_membros.png" style="height: 500px">  
+<img src="images/imagem_sobre.png" style="height: 500px">  
 
 ### Site
