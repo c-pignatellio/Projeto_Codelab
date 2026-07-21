@@ -19,7 +19,7 @@ Como sugerido na proposta do projeto, há alguns arquivos com informações para
 
 ### Imagens e Vídeos
 Imagens das três páginas desenvolvidas: Início, Membros e Sobre  
-<img src="images/imagem_inicio.png>  
+<img src="images/imagem_inicio.png">  
 !(./images/imagem_membros.png)  
 !(./images/imagem_sobre.png)  
 
