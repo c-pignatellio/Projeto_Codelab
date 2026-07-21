@@ -24,7 +24,7 @@ Imagens das três páginas desenvolvidas: Início, Membros e Sobre
 <img src="images/imagem_sobre.png" style="width: 400px">  
 
 Videos do site: navegação entre as páginas (tamanho normal e levemente reduzido)  
-<video><source src="videos/video_paginas.mp4>" type="video/mp4">
+<video><source src="videos/video_paginas.mp4" type="video/mp4">
 </video>
 
 ### Site
