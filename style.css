@@ -387,8 +387,9 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 14px;
+    gap: 20px;
     
     
 
