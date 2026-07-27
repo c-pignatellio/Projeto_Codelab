@@ -6,7 +6,7 @@ Nome: Cecília Pignatelli de Oliveira - BCC 026
 - CSS
 - JavaScript
 ## Apresentação
-O projeto escolhido para realizar foi o site do PET Computação, e eu fiz ele ao longo de um mês, em extensão, como um projeto solo. Como foi desenvolvido durante as férias, havia uma certa dificuldade de montar um grupo, mas também pela facilidade de fazê-lo sozinha, foi isso que escolhi. No projeto, foram desenvolvidas três páginas: Index, Membros e Sobre, cada uma seguindo o exemplo no Figma, com as devidas imagens, fonte e informações. A estrutura da pasta do projeto foi separada nas pastas "view", para os arquivos HTML, "public", para os arquivos JavaScript, "imagens", para as fotos e imagens presentes no site e "prints" do  site, "videos", para os videos de navegação do site (para visualização, apenas) e uma pasta "dados", com os arquivos JSON de informações. Os demais arquivos (estilo em CSS e README) são os únicos no diretório da base.
+O projeto escolhido para realizar foi o site do PET Computação, e eu fiz ele ao longo de um mês, em extensão, como um projeto solo. Como foi desenvolvido durante as férias, havia uma certa dificuldade de montar um grupo, mas também pela facilidade de fazê-lo sozinha, foi isso que escolhi. No projeto, foram desenvolvidas três páginas: Index, Membros e Sobre, cada uma seguindo o exemplo no Figma, com as devidas imagens, fonte e informações. A estrutura da pasta do projeto foi separada nas pastas "public", para os arquivos JavaScript, "imagens", para as fotos e imagens presentes no site e "prints" do site, "videos", para os videos de navegação do site (para visualização, apenas) e uma pasta "dados", com os arquivos JSON de informações. Os demais arquivos (arquivos HTML, estilo em CSS e README) são os únicos no diretório da base.
 
 ### Design
 O design foi totalmente baseado no modelo do Figma disponibilizado. O estilo foi feito em CSS tentando manter maior proximidade possível com o modelo nas páginas "inicial" e "membros". Na página "sobre nós", foi feita uma disposição das informações simples pois não havia um exemplo de modelo.
@@ -27,4 +27,4 @@ Videos do site (navegação entre as páginas np tamanho normal e levemente redu
 
 
 ### Site
-O site está disponível para visualização por meio da tecnologia Github Pages no link: 
+O site está disponível para visualização por meio da tecnologia Github Pages no link: https://c-pignatellio.github.io/Projeto_Codelab/
