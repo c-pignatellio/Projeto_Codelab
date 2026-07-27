@@ -326,7 +326,6 @@ transform: rotate(180deg);
     margin: 10px 20px 10px 20px;
     font-size: 14px;
     color: rgb(58, 58, 58);
-    font-weight: 100;
     line-height: 2;
     text-align: justify;
 }
@@ -373,7 +372,6 @@ transform: rotate(180deg);
 {
     font-size: 13px;
     color: rgb(58, 58, 58);
-    font-weight: 100;
     line-height: 1.5;
     text-align: justify;
 }
@@ -441,6 +439,7 @@ footer #logos
     flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
 }
 
 footer #logos img
