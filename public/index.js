@@ -16,13 +16,13 @@
             "nome": "Processo seletivo",
             "inicio": "20/03",
             "fim": "20/04",
-            "imagem": "../images/FL9uZHC.jpeg.png"
+            "imagem": "images/FL9uZHC.jpeg.png"
         },
         {
             "nome": "Processo seletivo",
             "inicio": "20/03",
             "fim": "20/04",
-            "imagem": "../images/JXCWVsa.jpeg.png"
+            "imagem": "images/JXCWVsa.jpeg.png"
         }
     ]
 }
@@ -33,7 +33,7 @@
         atividades.atuais.forEach(atividade => {
             html += `
                 <div class="item">
-                    <img src="../images/icon_atividade.svg.png">
+                    <img src="images/icon_atividade.svg.png">
                     <div class="item-text">
                             <h1>${atividade.nome}</h1>
                             <p>${atividade.descricao}</p>

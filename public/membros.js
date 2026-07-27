@@ -1,7 +1,7 @@
  const membross ={
     "responsavel": {
         "nome": "Educardo do Vale Simões",
-        "imagem": "../images/simoes.jpg"
+        "imagem": "images/simoes.jpg"
     },
     "membros": [
         {
@@ -28,7 +28,7 @@
         html += `<div class="item_membro"><img src="${membross.responsavel.imagem}"><h1>${membross.responsavel.nome}</h1></div>`;
         membross.membros.forEach(membro => {
             if(membro.imagem === "..."){
-                membro.imagem = "../images/imagem_membro.png";
+                membro.imagem = "images/imagem_membro.png";
             }
 
             html += `
